@@ -9,7 +9,6 @@ class EggDrop : JavaPlugin() {
         configManager = ConfigManager(this)
         if (!configManager!!.MAIN_SECTION.isEnabled) return
 
-        //setupCommand("respawndragon", new RespawnDragonCommand(), null);
         val listeners = arrayOf(
             EnderDragonDeathListener(),
         )
@@ -29,9 +28,6 @@ class EggDrop : JavaPlugin() {
     }
 
     companion object {
-        fun getPlugin(): EggDrop {
-            return getPlugin()
-        }
 
         const val LOG_PREFIX = "[EnderDragonTweaks] "
 

@@ -14,7 +14,6 @@ class ConfigSection(configSectionName: String?) {
 
     private fun getValue(name: String): Any {
         val path = configSectionHeader + name
-        //Util.logWarning(path + " = " + value);
         return configManager!!.config[path]!!
     }
 
