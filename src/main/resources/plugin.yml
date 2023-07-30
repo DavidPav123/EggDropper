@@ -1,0 +1,4 @@
+name: EggDrop
+version: 1.0
+main: com.github.davidpav123.eggdrop.EggDrop
+api-version: '1.20'
