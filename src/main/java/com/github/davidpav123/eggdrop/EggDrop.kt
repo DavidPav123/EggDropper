@@ -29,6 +29,10 @@ class EggDrop : JavaPlugin() {
     }
 
     companion object {
+        fun getPlugin(): EggDrop {
+            return getPlugin()
+        }
+
         const val LOG_PREFIX = "[EnderDragonTweaks] "
 
         @JvmStatic
